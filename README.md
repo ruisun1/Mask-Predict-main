@@ -9,7 +9,7 @@ text=PATH_YOUR_DATA
 
 output_dir=PATH_YOUR_OUTPUT
 
-`python preprocess.py --source-lang wro --target-lang cor --trainpref $text/train --validpref $text/valid --testpref $text/test  --destdir ${output_dir}/data-bin  --workers 60  --srcdict ${model_path}/maskPredict_${src}_${tgt}/dict.${src}.txt --tgtdict ${model_path}/maskPredict_${src}_${tgt}/dict.${tgt}.txt`
+```python preprocess.py --source-lang wro --target-lang cor --trainpref $text/train --validpref $text/valid --testpref $text/test  --destdir ${output_dir}/data-bin  --workers 60  --srcdict ${model_path}/maskPredict_${src}_${tgt}/dict.${src}.txt --tgtdict ${model_path}/maskPredict_${src}_${tgt}/dict.${tgt}.txt```
 
 ### Train
 
